@@ -73,4 +73,16 @@ print(type(MyClass))
 # <class '__main__.MyClass'>
 print(MyClass)
 
+# <class '__main__.MyClass'>
+print(type(MyClass()))
+
 # 결과가 이렇게 나오는 이유는 후에 '객체지향 및 클래스 튜토리얼'에서 공부해볼 것입니다.
+
+
+# type으로 새로운 type 정의하기
+# type 객체를 다음과 같이 사용하면 새로운 타입을 정의할 수 있습니다.
+
+MyType = type('MyType', (object,), {})
+
+# <class '__main__.MyType'>
+print(MyType)

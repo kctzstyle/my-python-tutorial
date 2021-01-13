@@ -1,4 +1,6 @@
-# Python Package Install
+# What is Package
+**패키지(package)**란, 각각의 모듈들을 묶어놓은 하나의 단위이며, **모듈(module)**이란, 함수(function)들과 클래스(class)들의 집합을 의미합니다. 경우에 따라 패키지와 모듈을 같은 의미로써 사용하는 경우도 존재합니다.
+
 ## pip
 [PyPI](https://pypi.org/)에 업로드 된 별도의 패키지들을 설치합니다.
 

@@ -144,6 +144,30 @@ s2.symmetric_difference_update(s1)
 print(s2)
 
 
+# 세트 연산자
+# 위에 방식대로 할 수 있지만, 세트는 세트만의 고유한 연산자를 가지고 있습니다.
+# - 합집합: `|` 기호
+# - 차집합: `-` 기호
+# - 교집합: `&` 기호
+# - 대칭차집합: `^` 기호
+uni = s1 | s2
+diff = s1 - s2
+inter = s1 & s2
+sym_diff = s1 ^ s2
+
+# {1, 2, 3, 4, 5}
+print(uni)
+
+# set()
+print(diff)
+
+# {1, 2, 3, 4, 5}
+print(inter)
+
+# set()
+print(sym_diff)
+
+
 s1 = {1, 2, 3, 4, 5}
 s2 = {1, 2, 3}
 
@@ -173,6 +197,7 @@ result = s2.issuperset(s1)
 
 # False
 print(result)
+
 
 # isdisjoint: 해당 이터러블에 대한 교집합이 없으면 참, 있다면 거짓을 나타냅니다.
 result = s1.isdisjoint(s2)

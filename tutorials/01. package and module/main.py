@@ -17,7 +17,7 @@ import my_package.hi
 
 
 # from: 패키지 내부의 모듈로 접근할 때 사용합니다.
-#       후에 공부할 '제너레이터와 yield'에서 다른 기능을 공부할 것입니다.
+#       후에 공부할 '제너레이터와 yield'에서 `from` 키워드의 다른 기능을 공부할 것입니다.
 
 from my_package import hello
 

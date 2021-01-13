@@ -56,7 +56,39 @@ print(type(1 + 3j))
 print(type('Hi'))
 
 
-# 클래스를 정의할 때 암묵적으로 파스칼(Pascal) 스타일로 클래스명을 정의합니다.
+# 대표적인 코딩 스타일(Coding Style)
+
+# 헝가리안 표기법(Hungarian Notation)
+#  프로그래밍 언어에서 변수 및 함수의 인자 이름 앞에 데이터 타입을 명시하는 코딩 규칙입니다.
+#  요즘 프로그래밍 코딩 스타일에는 권장되는 방식이 아닙니다.
+#  ex) intNumber = 1
+#      intA = 10
+#      floatPi = 3.14
+#      strHello = 'Hello'
+
+# 파스칼 표기법(Pascal Case)
+# 각 문장의 명사, 동사, 형용사 등 앞에 영문 대문자를 사용하여 구분하는 코딩 규칙입니다.
+# ex) Apple = 'apple'
+#     AirConditional = 'airconditional'
+#     HelloPython = 'Hello, Python'
+#     FooBar = 'foo bar'
+#     IsThis = 'is this'
+#     YouAndMe = 'you and me'
+
+# 스네이크 표기법(Snake Case)
+# 각 문장의 명사, 동사, 형용사 등 앞에 언더스코어(underscore; `_` 기호)를 사용하여 구분하는 코딩 규칙입니다.
+# ex) hello_python = 'Hello, Python'
+#     foo_bar = 'foo bar'
+#     you_and_me = 'you and me'
+
+# 카멜 표기법(Camel Case)
+# 맨 앞의 문장은 영문 소문자, 그 뒤 각 문장의 명사, 동사, 형용사 등 앞에 영문 대문자를 사용하여 구분하는 코딩 규칙입니다.
+# ex) helloPython = 'Hello, Python'
+#     fooBar = 'foo bar'
+#     youAndMe = 'you and me'
+
+
+# 클래스를 정의할 때 암묵적으로 파스칼(Pascal) 표기법으로 클래스명을 정의합니다.
 # 각 언어에서 선호되고 권장되는 코딩 스타일(Coding Style)이 있는데,
 # 파이썬에서는 이를 PEP8 문서에서 이러한 코딩 스타일들을 권장하고 있습니다.
 

@@ -1,6 +1,7 @@
 
 # None: 아무 것도 존재하지 않음을 의미합니다.
 
+
 # None
 print(None)
 # <class: 'NoneType'>

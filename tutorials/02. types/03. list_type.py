@@ -112,6 +112,19 @@ l.clear()
 print(l)
 
 
+# 멤버십 연산자(membership operator)
+# `a in b`라고 했을 때, a라는 요소가 b라는 컨테이너 안에 있다면 참, 아니면 거짓의 결과를 나타냅니다.
+# `a not in b`는 그와 반대의 결과를 나타냅니다.
+
+a = 4
+b = [1, 2, 3, 4, 5]
+
+# a in b? True
+print('a in b?', a in b)
+# a not in b? False
+print('a not in b?', a not in b)
+
+
 # 컴프리헨션(comprehension)
 # 컴프리헨션은 컨테이너 객체를 보다 더 쉽게 생성할 수 있도록 파이썬에서 지원되는 문법입니다.
 # 단순 반복문을 통해 append 하는 코드에 비해 성능도 굉장히 좋아서 파이썬에서 권장되는 문법입니다. 

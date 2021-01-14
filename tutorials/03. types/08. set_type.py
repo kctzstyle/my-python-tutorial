@@ -16,10 +16,23 @@ print(type(s))
 # {0}
 print(s)
 
-s = {1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 5, 5}
+s = {1, 2, 2, 3, 4, 5, 5}
 
 # {1, 2, 3, 4, 5}
 print(s)
+
+
+# 생성자 선언 방식
+s = set()
+
+# <class 'set'>
+print(type(s))
+
+# set()
+print(s)
+
+
+s = {1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 4, 5, 5}
 
 
 # add
@@ -236,3 +249,10 @@ result = s1.isdisjoint(s3)
 
 # True
 print(result)
+
+
+# 세트 컴프리헨션
+s = {x for x in [1, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6]}
+
+# {1, 2, 3, 4, 5, 6}
+print(s)

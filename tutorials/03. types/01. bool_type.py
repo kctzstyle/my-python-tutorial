@@ -1,8 +1,16 @@
 
-# bool
+# 불; 부울(bool)
 #   불(bool)은 boolean의 약어로써, 참과 거짓을 의미하는 논리 타입입니다.
 #   참은 `True`, 거짓은 `False`로 정의합니다.
 
+
+# 리터럴 선언 방식
+t = True
+f = False
+
+# 생성자 선언 방식
+t = bool(True)
+f = bool(False)
 
 # <class 'bool'>
 print(type(True))

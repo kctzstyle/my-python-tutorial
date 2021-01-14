@@ -5,7 +5,11 @@
 #   이러한 구조를 매핑(mapping)형 구조라고 합니다.
 #   키 값은 고유(unique)한 값을 가져야 합니다.
 
+# 리터럴 선언 방식
 d = {}
+
+# 생성자 선언 방식
+d = dict()
 
 # <class 'dict'>
 print(type(d))

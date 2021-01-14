@@ -4,16 +4,17 @@
 #   여러 가지 요소들을 순서대로 가질 수 있습니다.
 
 
+# 리터럴 선언 방식
 l = []
 
-# []
-print(l)
+# 생성자 선언 방식
+l = list()
 
 # <class 'list'>
 print(type(l))
 
-# False
-print(l is None)
+# []
+print(l)
 
 
 # index
